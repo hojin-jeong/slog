@@ -1,0 +1,34 @@
+{
+  "name": "@map_side/slog",
+  "version": "0.0.1",
+  "description": "super simple log share",
+  "main": "lib/slog.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hojin-jeong/slog.git"
+  },
+  "keywords": [
+    "logger",
+    "socket.io",
+    "jserial",
+    "share"
+  ],
+  "author": "hojin.jeong (a66764765@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hojin-jeong/slog/issues"
+  },
+  "homepage": "https://github.com/hojin-jeong/slog#readme",
+  "dependencies": {
+    "eventemitter2": "^6.4.4",
+    "jserial": "0.1.0",
+    "socket.io": "^4.2.0",
+    "socket.io-client": "^4.2.0"
+  }
+}
